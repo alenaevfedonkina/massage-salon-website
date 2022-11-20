@@ -28,7 +28,6 @@ a {
 }
 
 .section_first {
-    min-height: 740px;
     padding-top: 16px;
     background-color: #7a6a5d;
     position: relative;
@@ -142,7 +141,6 @@ a {
 }
 
 .page2__first-text {
-    width: 300px;
     height: 100px;
     font-size: 20px;
     margin: 40px;
@@ -572,10 +570,6 @@ input {
         width: 100%;
     }
 
-    .section_first {
-        min-height: 345px;
-    }
-
     .header {
         display: none;
     }
@@ -585,22 +579,23 @@ input {
     }
 
     .banner-text {
-        font-size: 55px;
+        font-size: 43px;
     }
 
     .banner-img {
-        width: 208px;
-        left: 139px;
-        top: 63px;
+        width: 47%;
+        left: 40%;
+        top: 17%;
+        height: 80%;
     }
 
     .white {
         margin: 0 -15px;
-        width: 137px;
+        width: 47%;
     }
 
     .text-under_banner {
-        width: 139px;
+        width: 38%;
         margin: 5px -7px;
         text-align: start;
     }
@@ -629,7 +624,7 @@ input {
     }
 
     .relax-text {
-        font-size: 29px;
+        font-size: 24px;
     }
 
     .types {
@@ -679,38 +674,39 @@ input {
 
     .hand-img {
         height: 137px;
-        width: 208px;
+        width: 103px;
     }
 
     .img1 {
-        -webkit-transform: translateY(15px);
-        -ms-transform: translateY(15px);
-        transform: translateY(15px);
+        -webkit-transform: translateY(15%);
+        -ms-transform: translateY(15%);
+        transform: translateY(15%);
     }
 
     .img2 {
-        -webkit-transform: translate(68px, -47px);
-        -ms-transform: translate(68px, -47px);
-        transform: translate(68px, -47px);
+        -webkit-transform: translate(68%, -47%);
+        -ms-transform: translate(68%, -47%);
+        transform: translate(68%, -47%);
     }
 
     h2 {
-        font-size: 37px;
+        font-size: 30px;
         text-align: center;
     }
 
-    .text-under {
-        font-size: 12px;
+    .l-text, .text-under {
+        font-size: 10px;
     }
 
     .img4 {
-        -webkit-transform: translate(2px, -14px);
-        -ms-transform: translate(2px, -14px);
-        transform: translate(2px, -14px);
+        -webkit-transform: translate(2%, -14%);
+        -ms-transform: translate(2%, -14%);
+        transform: translate(2%, -14%);
     }
 
     .foot-img {
         height: 179px;
+        width: 120px;
     }
 
     .about-text, .btn-foot, .m-text, .que-text {
@@ -719,6 +715,10 @@ input {
 
     .foot-page {
         padding: 0;
+    }
+
+    .foot-text {
+        margin: 10px 10px 0;
     }
 
     .hamburger-menu {
